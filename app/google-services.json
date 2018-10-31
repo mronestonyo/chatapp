@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "273096560553",
+    "firebase_url": "https://chatappfirebase-4e65b.firebaseio.com",
+    "project_id": "chatappfirebase-4e65b",
+    "storage_bucket": "chatappfirebase-4e65b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273096560553:android:b0e193299a6e8085",
+        "android_client_info": {
+          "package_name": "com.mronestonyo.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273096560553-gkhdgt236is4l0eoulrr4neludrarmj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mronestonyo.chatapp",
+            "certificate_hash": "a8eeca2cc59c77b622d41ae838a34df8de530191"
+          }
+        },
+        {
+          "client_id": "273096560553-28a1klgnvnolfbt5578dr4b3idgmas05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmKnXkwS_iZdliBaXhmWRzAP6s-i3CXhM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273096560553-28a1klgnvnolfbt5578dr4b3idgmas05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

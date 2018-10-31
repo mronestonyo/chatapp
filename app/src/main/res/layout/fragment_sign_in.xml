@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_FFFFFF"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edt_background"
+        android:hint="User name"
+        android:inputType="text|textNoSuggestions"
+        android:textColor="@color/color_647787"
+        android:textColorHint="@color/color_647787" />
+
+    <TextView
+        android:id="@+id/txvErrorUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="5dp"
+        android:text="Value is incorrect"
+        android:textColor="@color/color_cc3333"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_background"
+        android:hint="password"
+        android:inputType="textPassword|textNoSuggestions"
+        android:textColor="@color/color_647787"
+        android:textColorHint="@color/color_647787" />
+
+    <TextView
+        android:id="@+id/txvErrorPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="5dp"
+        android:text="Value is incorrect"
+        android:textColor="@color/color_cc3333"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txvSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:text="@string/string_signup"
+        android:textColor="@color/color_647787"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/txvTos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="left"
+        android:letterSpacing="0.1"
+        android:text="@string/string_tos"
+        android:textColor="@color/color_647787"
+        android:textSize="14dp" />
+
+</LinearLayout>

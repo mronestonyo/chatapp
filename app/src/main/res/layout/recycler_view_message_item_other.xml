@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="15dp">
+
+    <me.himanshusoni.chatmessageview.ChatMessageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/chatMessageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        app:cmv_arrowGravity="end"
+        app:cmv_arrowMargin="10dp"
+        app:cmv_arrowPosition="left"
+        app:cmv_backgroundColor="@color/color_89E307"
+        app:cmv_backgroundColorPressed="@color/color_89E307"
+        app:cmv_contentPadding="5dp"
+        app:cmv_cornerRadius="10dp"
+        app:cmv_showArrow="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txvMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:letterSpacing="0.1"
+                android:maxWidth="220dp"
+                android:text="hello"
+                android:textColor="@color/color_FFFFFF"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </me.himanshusoni.chatmessageview.ChatMessageView>
+
+    <TextView
+        android:id="@+id/txvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|left"
+        android:layout_marginRight="12dp"
+        android:maxWidth="220dp"
+        android:textColor="@color/color_647787"
+        android:textSize="12dp" />
+
+</LinearLayout>
